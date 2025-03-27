@@ -1,0 +1,15 @@
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/bin/Debug/net9.0/APBD - Containers
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/bin/Debug/net9.0/APBD - Containers.deps.json
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/bin/Debug/net9.0/APBD - Containers.runtimeconfig.json
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/bin/Debug/net9.0/APBD - Containers.dll
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/bin/Debug/net9.0/APBD - Containers.pdb
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/APBD - Containers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/APBD - Containers.AssemblyInfoInputs.cache
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/APBD - Containers.AssemblyInfo.cs
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/APBD - Containers.csproj.CoreCompileInputs.cache
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/APBD - Containers.sourcelink.json
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/APBD - Containers.dll
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/refint/APBD - Containers.dll
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/APBD - Containers.pdb
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/APBD - Containers.genruntimeconfig.cache
+/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/ref/APBD - Containers.dll
