@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/APBD - Containers.csproj": {}
+    "C:\\Users\\s27322\\Documents\\repo\\pejot-repo\\APBD - Containers\\APBD - Containers\\APBD - Containers.csproj": {}
   },
   "projects": {
-    "/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/APBD - Containers.csproj": {
+    "C:\\Users\\s27322\\Documents\\repo\\pejot-repo\\APBD - Containers\\APBD - Containers\\APBD - Containers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/APBD - Containers.csproj",
+        "projectUniqueName": "C:\\Users\\s27322\\Documents\\repo\\pejot-repo\\APBD - Containers\\APBD - Containers\\APBD - Containers.csproj",
         "projectName": "APBD - Containers",
-        "projectPath": "/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/APBD - Containers.csproj",
-        "packagesPath": "/Users/maciejalfut/.nuget/packages/",
-        "outputPath": "/Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/",
+        "projectPath": "C:\\Users\\s27322\\Documents\\repo\\pejot-repo\\APBD - Containers\\APBD - Containers\\APBD - Containers.csproj",
+        "packagesPath": "C:\\Users\\s27322\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\s27322\\Documents\\repo\\pejot-repo\\APBD - Containers\\APBD - Containers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/maciejalfut/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\s27322\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/maciejalfut/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\s27322\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

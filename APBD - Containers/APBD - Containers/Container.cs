@@ -1,4 +1,8 @@
 namespace APBD___Containers;
+interface IHazardNotifier
+{
+    public void notify();
+}
 public enum ContainerType
 {
     Liquid, Gas, Cool

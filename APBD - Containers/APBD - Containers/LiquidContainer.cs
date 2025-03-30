@@ -3,10 +3,7 @@ using System.Transactions;
 namespace APBD___Containers;
 
 
-interface IHazardNotifier
-{
-    public void notify();
-}
+
 
 public class LiquidContainer : Container
 {
