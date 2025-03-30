@@ -13,3 +13,18 @@
 /Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/APBD - Containers.pdb
 /Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/APBD - Containers.genruntimeconfig.cache
 /Users/maciejalfut/Documents/APBD/APBD - Containers/APBD - Containers/obj/Debug/net9.0/ref/APBD - Containers.dll
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\bin\Debug\net9.0\APBD - Containers.exe
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\bin\Debug\net9.0\APBD - Containers.deps.json
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\bin\Debug\net9.0\APBD - Containers.runtimeconfig.json
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\bin\Debug\net9.0\APBD - Containers.dll
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\bin\Debug\net9.0\APBD - Containers.pdb
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\obj\Debug\net9.0\APBD - Containers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\obj\Debug\net9.0\APBD - Containers.AssemblyInfoInputs.cache
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\obj\Debug\net9.0\APBD - Containers.AssemblyInfo.cs
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\obj\Debug\net9.0\APBD - Containers.csproj.CoreCompileInputs.cache
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\obj\Debug\net9.0\APBD - Containers.sourcelink.json
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\obj\Debug\net9.0\APBD - Containers.dll
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\obj\Debug\net9.0\refint\APBD - Containers.dll
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\obj\Debug\net9.0\APBD - Containers.pdb
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\obj\Debug\net9.0\APBD - Containers.genruntimeconfig.cache
+C:\Users\macie\Documents\PJATK - ZADANIA\APBD\pejot-repo\APBD - Containers\APBD - Containers\obj\Debug\net9.0\ref\APBD - Containers.dll

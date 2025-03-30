@@ -28,6 +28,7 @@ public class LiquidContainer : Container
                 {
                     notify();
                     this.cargoWeight = cargoWeight;
+                    totalWeight += this.cargoWeight;
                 } 
             }
             else
@@ -36,8 +37,14 @@ public class LiquidContainer : Container
                 {
                     notify();
                     this.cargoWeight = cargoWeight;
+                    totalWeight += this.cargoWeight;
                 } 
             }
         }
+    }
+    public override string ToString()
+    {
+        return $"Numer seryjny: {serial}\nWaga kontenera: {containerWeight}kg\nTyp ładunku: {(isHazardous ? "Niebezpieczny" : "Bezpieczny")}\n"+
+               $"Wysokość kontenera: {height}\nGłębokość kontenera: {deepness}\nŁadowność: {maxCapacity}\nWaga ładunku: {cargoWeight}\nWaga całkowita: {totalWeight}";
     }
 }

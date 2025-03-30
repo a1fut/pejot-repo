@@ -17,7 +17,8 @@ public abstract class Container : OverfillException, IHazardNotifier
     protected double deepness { get; set; }
     internal string serial {get; set;}
     protected double maxCapacity { get; set; }
-    protected static int serialNumber = 0; 
+    protected static int serialNumber = 0;
+    internal double totalWeight { get; set; }
 
     
     public Container( double height, double containerWeight, double deepness, double maxCapacity )
@@ -26,6 +27,7 @@ public abstract class Container : OverfillException, IHazardNotifier
      this.containerWeight = containerWeight;
      this.deepness = deepness;
      this.maxCapacity = maxCapacity;
+     totalWeight = containerWeight;
      serialNumber++;
     }
 
@@ -38,6 +40,7 @@ public abstract class Container : OverfillException, IHazardNotifier
         else
         {
             this.cargoWeight = cargoWeight;
+            totalWeight += cargoWeight;
         }
     }
 
@@ -62,6 +65,11 @@ public abstract class Container : OverfillException, IHazardNotifier
             default:
                 throw new ArgumentOutOfRangeException();
         }
+    }
+
+    public override string ToString()
+    {
+        return $@"Numer seryjny: {serial}";
     }
 
 

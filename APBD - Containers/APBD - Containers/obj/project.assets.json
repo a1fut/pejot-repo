@@ -8,26 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\s27322\\.nuget\\packages\\": {}
+    "C:\\Users\\macie\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s27322\\Documents\\repo\\pejot-repo\\APBD - Containers\\APBD - Containers\\APBD - Containers.csproj",
+      "projectUniqueName": "C:\\Users\\macie\\Documents\\PJATK - ZADANIA\\APBD\\pejot-repo\\APBD - Containers\\APBD - Containers\\APBD - Containers.csproj",
       "projectName": "APBD - Containers",
-      "projectPath": "C:\\Users\\s27322\\Documents\\repo\\pejot-repo\\APBD - Containers\\APBD - Containers\\APBD - Containers.csproj",
-      "packagesPath": "C:\\Users\\s27322\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s27322\\Documents\\repo\\pejot-repo\\APBD - Containers\\APBD - Containers\\obj\\",
+      "projectPath": "C:\\Users\\macie\\Documents\\PJATK - ZADANIA\\APBD\\pejot-repo\\APBD - Containers\\APBD - Containers\\APBD - Containers.csproj",
+      "packagesPath": "C:\\Users\\macie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\macie\\Documents\\PJATK - ZADANIA\\APBD\\pejot-repo\\APBD - Containers\\APBD - Containers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\s27322\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\macie\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,7 +43,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -66,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\s27322\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\macie\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
