@@ -2,26 +2,45 @@ using System.Transactions;
 
 namespace APBD___Containers;
 
+
 interface IHazardNotifier
 {
     public void notify();
 }
 
-public class LiquidContainer : Container, IHazardNotifier
+public class LiquidContainer : Container
 {
+    
+    bool isHazardous;
 
-    public LiquidContainer(double cargoWeight, double height, double containerWeight, double deepness) : base(
-        cargoWeight, height, containerWeight, deepness)
+    public LiquidContainer(double height, double containerWeight, double deepness, double maxCapacity, bool isHazardous) : base(height, containerWeight, deepness, maxCapacity)
     {
+        this.isHazardous = isHazardous;
+        this.containerType = ContainerType.Liquid;
         generateSerialNumber();
     }
 
-    public override void generateSerialNumber()
+    public override void loadContainer(double cargoWeight)
     {
-        this.serial += "L" + randomNumber();
-    }
-    public void notify()
-    {
-        Console.WriteLine("${this.serialNumber}: ");
+        if (cargoWeight > maxCapacity) throw new OverflowException($"{serial}: cannot have more than {maxCapacity} capacity");
+        else
+        {
+            if (isHazardous)
+            {
+                if (cargoWeight >= 0.5 * maxCapacity)
+                {
+                    notify();
+                    this.cargoWeight = cargoWeight;
+                } 
+            }
+            else
+            {
+                if (cargoWeight >= 0.9 * maxCapacity)
+                {
+                    notify();
+                    this.cargoWeight = cargoWeight;
+                } 
+            }
+        }
     }
 }

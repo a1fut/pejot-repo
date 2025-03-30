@@ -1,39 +1,68 @@
 namespace APBD___Containers;
-
-public abstract class Container
+public enum ContainerType
 {
+    Liquid, Gas, Cool
+}
+
+public abstract class Container : OverfillException, IHazardNotifier
+{
+    protected ContainerType containerType { get; set; }
     protected double cargoWeight { get; set; }
     protected double height { get; set; }
     protected double containerWeight {get; set;}
     protected double deepness { get; set; }
-    protected string serial = "KON-";
+    internal string serial {get; set;}
     protected double maxCapacity { get; set; }
+    protected static int serialNumber = 0; 
 
-    public Container(double cargoWeight, double height, double containerWeight, double deepness)
+    
+    public Container( double height, double containerWeight, double deepness, double maxCapacity )
     {
-     this.cargoWeight = cargoWeight;
      this.height = height;
      this.containerWeight = containerWeight;
      this.deepness = deepness;
+     this.maxCapacity = maxCapacity;
+     serialNumber++;
     }
 
-    public void loadContainer(double cargoWeight)
+    public virtual void loadContainer(double cargoWeight)
     {
-        this.cargoWeight = cargoWeight;
+        if (cargoWeight > this.maxCapacity)
+        {
+            throw new OverfillException();
+        }
+        else
+        {
+            this.cargoWeight = cargoWeight;
+        }
     }
 
-    public void unloadContainer()
+    public virtual void unloadContainer()
     {
         this.cargoWeight = 0;
     }
 
-    public abstract void generateSerialNumber();
-
-    protected int randomNumber()
+    protected void generateSerialNumber()
     {
-        Random random = new Random();
-        return random.Next(0, 9999);
+        switch (containerType)
+        {
+            case ContainerType.Liquid:
+                this.serial += "KON-L-" + serialNumber;
+                break;
+            case ContainerType.Gas:
+                this.serial += "KON-G-" + serialNumber;
+                break;
+            case ContainerType.Cool:
+                this.serial += "KON-C-" + serialNumber;
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
     }
 
 
+    public void notify()
+    {
+        Console.WriteLine($"{serial}: WARNING!");
+    }
 }
